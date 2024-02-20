@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Images</title>
+    <style>
+      body {
+        background: #414141;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://images.pexels.com/photos/19684417/pexels-photo-19684417/free-photo-of-coffee-cup-on-table-near-plant-by-wall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      width="400px"
+      alt="no image"
+    />
+
+    <img src="./Pramod.jpg" alt="No image" />
+
+    <picture>
+      <source media="(min-width: 650px)" srcset="./Pramod.jpg" />
+      <source media="(min-width: 460px)" srcset="./Pramod2.jpg" />
+      <!-- through scrset many images are manipulate millions of dollars bussiness -->
+      <!-- if above 2 didn't run by default image will run -->
+      <img src="./Pramod.jpg" alt="No image" />
+    </picture>
+    
+  </body>
+</html>
